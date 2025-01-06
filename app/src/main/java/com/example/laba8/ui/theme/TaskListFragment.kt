@@ -1,23 +1,17 @@
-package com.example.mobile_development_lab_08.ui
+package com.example.laba8.ui.theme
 
-import TaskAdapter
-import TaskViewModel
-import TaskViewModelFactory
 import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup
 import androidx.fragment.app.viewModels
+import com.example.laba8.TaskFormActivity
+import com.example.laba8.db.TaskDatabase
 import com.example.mobile_development_lab_08.R
-import com.example.mobile_development_lab_08.TaskFormActivity
-import com.example.mobile_development_lab_08.db.TaskDatabase
-import com.example.mobile_development_lab_08.model.Priority
-import com.example.mobile_development_lab_08.model.Task
+
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.snackbar.Snackbar
 

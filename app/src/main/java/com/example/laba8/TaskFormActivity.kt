@@ -1,14 +1,9 @@
-package com.example.mobile_development_lab_08
+package com.example.laba8
 
 import android.os.Bundle
-import android.os.StrictMode
-import android.view.Menu
-import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
-import androidx.navigation.Navigation.findNavController
-import androidx.navigation.ui.AppBarConfiguration
+import com.example.mobile_development_lab_08.R
 import com.example.mobile_development_lab_08.ui.TaskFormFragment
-import com.example.mobile_development_lab_08.ui.TaskListFragment
 
 class TaskFormActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

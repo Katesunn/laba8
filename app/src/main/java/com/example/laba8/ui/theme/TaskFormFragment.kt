@@ -1,7 +1,5 @@
-package com.example.mobile_development_lab_08.ui
+package com.example.laba8.ui.theme
 
-import TaskViewModel
-import TaskViewModelFactory
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
@@ -9,10 +7,11 @@ import android.widget.EditText
 import android.widget.RadioGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
+import com.example.laba8.db.TaskDatabase
+import com.example.laba8.model.Priority
+import com.example.laba8.model.Task
 import com.example.mobile_development_lab_08.R
-import com.example.mobile_development_lab_08.db.TaskDatabase
-import com.example.mobile_development_lab_08.model.Priority
-import com.example.mobile_development_lab_08.model.Task
+
 
 class TaskFormFragment : Fragment(R.layout.fragment_task_form) {
 
