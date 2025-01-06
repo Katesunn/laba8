@@ -4,8 +4,9 @@ import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.example.laba8.R
 import com.example.laba8.model.Task
-import com.example.mobile_development_lab_08.R
+
 
 
 class TaskAdapter(private var tasks: MutableList<Task>, private val context: Context) : RecyclerView.Adapter<TaskHolder>() {

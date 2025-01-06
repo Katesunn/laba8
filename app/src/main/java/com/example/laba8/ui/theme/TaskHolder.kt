@@ -6,9 +6,10 @@ import android.view.View
 import android.widget.FrameLayout
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.laba8.R
 import com.example.laba8.model.Priority
 import com.example.laba8.model.Task
-import com.example.mobile_development_lab_08.R
+
 
 class TaskHolder (itemView: View, private val context: Context, private val adapter: TaskAdapter) : RecyclerView.ViewHolder(itemView){
     private val taskContent: TextView = itemView.findViewById(R.id.taskContent)
