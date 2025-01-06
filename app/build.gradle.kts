@@ -1,16 +1,16 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
-    id("kotlin-kapt")
+    id("kotlin-kapt") // не обязательно через version catalog, можно напрямую
 }
 
 android {
-    namespace = "com.example.mobile_development_lab_08"
+    namespace = "com.example.laba8"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.mobile_development_lab_08"
-        minSdk = 24
+        applicationId = "com.example.laba8"
+        minSdk = 26
         targetSdk = 35
         versionCode = 1
         versionName = "1.0"
@@ -47,6 +47,7 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
+    implementation(libs.androidx.material3.android)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
